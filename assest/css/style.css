@@ -1,0 +1,972 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 1100px !important;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    overflow: hidden;
+
+}
+
+.saint {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.Shiba {
+    color: var(--orange, #F06500);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.li-home {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.li-home:hover {
+    color: orange;
+}
+
+.pt-14 {
+    padding-top: 14px;
+    padding-bottom: 22px;
+}
+
+.li-btn {
+    border-radius: 23.5px;
+    background: var(--gradient-h, linear-gradient(90deg, #FFA800 0%, #F06500 100%));
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 7px 23px;
+    cursor: pointer;
+
+}
+
+.li-btn:hover {
+    background: var(--gradient-h, linear-gradient(90deg, #ffff 0%, #ffff 100%));
+    color: #F47800;
+    border: 1px solid #FFF;
+}
+
+.bg-img {
+    background-image: url(../img/bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Accumsan {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.Velit {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.mt-59 {
+    padding-top: 60px;
+}
+
+.bg-fill {
+    background-color: #1D1A1A;
+}
+
+.Cursus {
+    color: var(--white, #FFF);
+    align-self: stretch;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.connect-btn {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    padding: 12px 32px !important;
+    border-radius: 33px;
+    background: var(--Gradient-H, linear-gradient(90deg, #FFA800 0%, #F06500 100%));
+    border: none;
+    gap: 10px;
+}
+.connect-btn:hover{
+    background: var(--Gradient-H, linear-gradient(90deg, #fff 0%, #Ffff 100%)); background-color: #FFF;
+    color: orange;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.Urna {
+    color: var(--white, #FFF);
+    align-self: stretch;
+    opacity: 0.7;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.Learnbtn {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 7px 23px;
+    border: none;
+    border-radius: 23.5px;
+    background: var(--Gradient-H, linear-gradient(90deg, #FFA800 0%, #F06500 100%));
+}
+
+.How {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.Cras-box {
+    border-radius: 46px;
+    background: #151313;
+
+    flex-shrink: 0;
+}
+
+.Cras-box:hover {
+    background-color: #0C0B0B;
+
+}
+
+.Cras-box:hover .number-box {
+    background-color: #F47800;
+}
+
+.number-box {
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+    width: 71px;
+    background-color: white;
+
+
+}
+
+.img3 {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.w-50 {
+    width: 50% !important;
+    max-width: 800px;
+}
+
+.blue-card2 {
+    transform: translateY(-66px);
+}
+
+.number {
+    color: var(--black, #0C0B0B);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.Cras-box:hover .number-box .number {
+    color: white;
+}
+
+.Cras {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.Amet {
+    color: var(--white, #FFF);
+    opacity: 0.7;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.pl-21 {
+    padding-left: 20px;
+}
+
+.min-vh-50 {
+    min-height: 80vh;
+}
+
+.tok {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.card-1 {
+    border-radius: 10px;
+    background: linear-gradient(95deg, rgba(255, 255, 255, 0.10) 0.97%, rgba(255, 255, 255, 0.00) 103.14%);
+    backdrop-filter: blur(16px);
+    border: 1px solid #363535;
+    max-width: 424px;
+}
+
+.card-1:hover {
+
+    border: 1px solid #F06500;
+}
+
+.whe {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.card-per {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.card-per:hover {
+    color: #F06500;
+}
+
+.liq {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.pl-100 {
+    padding-left: 100px;
+}
+
+.card-big {
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: linear-gradient(95deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0.00) 103.14%);
+    backdrop-filter: blur(16px);
+}
+
+.blur-card2 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+
+.fd-col {
+    flex-direction: column !important;
+}
+
+.blur-card {
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: linear-gradient(95deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0.00) 103.14%);
+    backdrop-filter: blur(16px);
+    border: none;
+}
+
+.Cur {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.Ur {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+.btn-lea {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+    border-radius: 23.5px;
+    background: var(--Gradient-H, linear-gradient(90deg, #FFA800 0%, #F06500 100%));
+    padding: 7px 23px;
+    gap: 10px;
+}
+
+.bg-- {
+    background-color: #1D1A1A;
+}
+
+.mr--50 {
+    margin-left: -50px;
+}
+
+.big-box {
+
+    border-radius: 10px;
+    border: 1px solid #363535;
+    background: linear-gradient(95deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0.00) 103.14%);
+    backdrop-filter: blur(16px);
+}
+
+.Sed {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.pr-20 {
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 4%;
+    bottom: 21%;
+    left: 50%;
+    margin-left: -3px;
+}
+
+/* Container around content */
+.timeline-container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The circles on the timeline */
+.timeline-container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -25px;
+    background-color: #F88800;
+    border: 25px solid #F88800;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+    left: 0;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -25px;
+}
+
+/* The actual content */
+.content {
+    padding: 20px 30px;
+    background-color: black;
+    position: relative;
+    border-radius: 6px;
+}
+
+.map {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.phase {
+    color: var(--white, #FFF);
+    text-align: right;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.phase2 {
+    color: var(--white, #FFF);
+    text-align: left;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Massa {
+    color: var(--white, #FFF);
+    text-align: right;
+    font-family: Poppins;
+    font-size: 18px;
+    max-width: 547px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.Massa2 {
+    color: var(--white, #FFF);
+    text-align: left;
+    font-family: Poppins;
+    font-size: 18px;
+    max-width: 547px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.faq {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.accordian-item1 {
+    cursor: pointer;
+    height: 59px;
+    border: 1px solid var(--border, rgba(0, 0, 0, 0.10));
+    border-radius: 5px;
+    padding: 17px 11px 13px 19px;
+    overflow: hidden;
+}
+
+.accordian-content3 {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.7;
+    padding-top: 20px;
+}
+
+.accordion3 {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.active {
+    height: unset;
+}
+
+.accordian-item1.active .group3 {
+    color: #FFF;
+}
+
+.accordian-item1.active .group3 svg {
+    transform: rotate(180deg);
+}
+
+.bg-blu {
+    border-radius: 15px;
+    background: #131212;
+}
+
+.group-154 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.group-153 {
+    position: absolute;
+    top: 0;
+    right: -39%;
+    ;
+}
+
+.elpis-8 {
+    position: absolute;
+    top: -11%;
+    right: -25%;
+}
+
+.group-155 {
+    position: absolute;
+    right: -39%;
+    bottom: 0;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.Ellipse-9 {
+    position: absolute;
+    right: -39%;
+    bottom: 0%;
+}
+
+.ellipse-7 {
+    position: absolute;
+    top: -80px;
+    right: 9px;
+
+}
+
+.w-40 {
+    width: 76% !important;
+}
+
+.pl-33 {
+    padding-left: 33%;
+}
+
+.group-2 {
+    position: absolute;
+    bottom: -20%;
+    left: -2%;
+}
+
+.e1 {
+    position: absolute;
+    top: -40%;
+    right: -16%;
+}
+
+.bg-week {
+    background-color: #131212;
+}
+
+tr.tt:hover {
+    background-color: #0C0C0C;
+    transform: scale(1.01);
+}
+
+.token {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Seddigq {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.Seddigq1 {
+    text-align: center;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.pl-20 {
+    padding-left: 20px;
+
+}
+
+/* td,
+th,
+tr {
+    border-radius: 10px;
+    border: 2px solid green;
+    background: linear-gradient(95deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0.00) 103.14%);
+    backdrop-filter: blur(16px);
+} */
+tr:hover {
+    background-color: #0C0C0C;
+}
+
+
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+    }
+
+    /* Full-width containers */
+    .timeline-container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .timeline-container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .left::after,
+    .right::after {
+        left: 5px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0%;
+    }
+}
+
+@media (max-width:1030px) {
+    label[for="menu-icon"] {
+        width: 30px;
+        height: 22px;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        position: relative;
+        z-index: 3;
+        margin-top: 10px;
+    }
+
+    label[for="menu-icon"]>span {
+        border-radius: 2px;
+        background-color: red;
+        display: block;
+        height: 5px;
+        width: 100%;
+
+    }
+
+    ul.mobile-view {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        background-image: url(../img/bg-img.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+        gap: 10px;
+        top: 0;
+        left: -100%;
+        transition: all 300ms linear;
+        display: none;
+        z-index: 1;
+
+
+    }
+
+    input[type="checkbox"]:checked+ul {
+        background-color: blue;
+        display: flex;
+        left: 0;
+        z-index: 1;
+
+    }
+}
+
+@media (max-width:1040px) {
+    .col12-md {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:860px) {
+    .md-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Accumsan {
+        color: var(--white, #FFF);
+        font-family: Poppins;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    .Velit {
+        color: #FFFFFF;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+    }
+}
+
+@media (max-width:500px) {
+    .Accumsan {
+        color: var(--white, #FFF);
+        font-family: Poppins;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    .Velit {
+        color: #FFFFFF;
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+}
+
+@media (max-width:384px) {
+    .Accumsan {
+        color: var(--white, #FFF);
+        font-family: Poppins;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    .Velit {
+        color: #FFFFFF;
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .Cras {
+        color: var(--white, #FFF);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+    }
+    
+    .Amet {
+        color: var(--white, #FFF);
+        opacity: 0.7;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+}
+
+@media (max-width:992px) {
+    .tc {
+        text-align: center;
+    }
+
+    .Cursus {
+        color: var(--white, #FFF);
+
+        font-family: Poppins;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .Urna {
+        color: var(--white, #FFF);
+
+        opacity: 0.7;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+}
+
+@media (max-width:991px) {
+    .mtb {
+        margin-top: 20px !important;
+        margin-top: 20px !important;
+    }
+
+    .justifycenter {
+        display: flex;
+        justify-content: center;
+    }
+
+    .my1 {
+        margin: auto;
+    }
+}
+
+@media (max-width:1299px) {
+    .my {
+        margin: auto;
+    }
+
+   
+
+}
+
+@media (max-width:475px) {
+    .token {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 6px;
+        font-weight: 500;
+    }
+
+    .Seddigq {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 6px;
+        text-align: center;
+        font-weight: 400;
+        opacity: 0.6;
+    }
+
+    .Seddigq1 {
+        text-align: center;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 6px;
+        font-weight: 400;
+    }
+    .wr-100{
+        width: 100%;
+    }
+    .Massa2 {
+        color: var(--white, #FFF);
+        text-align: left;
+        font-family: Poppins;
+        font-size: 14px;
+        max-width: 547px;
+        font-style: normal;
+        font-weight: 400;
+        opacity: 0.7;
+    }
+    .phase {
+        color: var(--white, #FFF);
+        text-align: right;
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+.Massa {
+    color: var(--white, #FFF);
+    text-align: right;
+    font-family: Poppins;
+    font-size: 14px;
+    max-width: 547px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+}
+
+@media (max-width:1199px) {
+    .img3 {
+        position: unset;
+        right: 0;
+        bottom: 0;
+        transform: unset;
+       margin: auto;
+    }
+    .mtr {
+        margin-top: 20px;
+    }
+}
